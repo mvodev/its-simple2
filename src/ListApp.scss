@@ -1,0 +1,19 @@
+.list-app {
+  margin: 10px auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  &__header {
+    text-align: center;
+  }
+
+  &__button {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding: 0;
+  }
+}
